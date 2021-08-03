@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF57DB3526B19E3700BBE34A /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57DB3426B19E3700BBE34A /* Repository.swift */; };
-		DF57DB5626B3DFAC00BBE34A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57DB5526B3DFAB00BBE34A /* SearchBarView.swift */; };
-		DFD9CD9D268BB74B001EB1C5 /* TryFetchDataOnGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CD9C268BB74B001EB1C5 /* TryFetchDataOnGitApp.swift */; };
-		DFD9CD9F268BB74C001EB1C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CD9E268BB74C001EB1C5 /* ContentView.swift */; };
+		DF57DB6C26B3F30D00BBE34A /* SearchGitRepositorySwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CD9C268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.swift */; };
+		DF57DB6D26B3F30D00BBE34A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CD9E268BB74C001EB1C5 /* ContentView.swift */; };
+		DF57DB6E26B3F30D00BBE34A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDB4268DE733001EB1C5 /* DetailView.swift */; };
+		DF57DB6F26B3F30D00BBE34A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDAC268BB763001EB1C5 /* Service.swift */; };
+		DF57DB7026B3F30D00BBE34A /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57DB3426B19E3700BBE34A /* Repository.swift */; };
+		DF57DB7126B3F30D00BBE34A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57DB5526B3DFAB00BBE34A /* SearchBarView.swift */; };
+		DF57DB7226B3F30D00BBE34A /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDB7268F2BB5001EB1C5 /* RemoteImage.swift */; };
 		DFD9CDA1268BB756001EB1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD9CDA0268BB756001EB1C5 /* Assets.xcassets */; };
 		DFD9CDA4268BB756001EB1C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD9CDA3268BB756001EB1C5 /* Preview Assets.xcassets */; };
-		DFD9CDAD268BB763001EB1C5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDAC268BB763001EB1C5 /* Service.swift */; };
-		DFD9CDB5268DE733001EB1C5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDB4268DE733001EB1C5 /* DetailView.swift */; };
-		DFD9CDB8268F2BB5001EB1C5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9CDB7268F2BB5001EB1C5 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF57DB3426B19E3700BBE34A /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		DF57DB5526B3DFAB00BBE34A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
-		DFD9CD99268BB74B001EB1C5 /* TryFetchDataOnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryFetchDataOnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD9CD9C268BB74B001EB1C5 /* TryFetchDataOnGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFetchDataOnGitApp.swift; sourceTree = "<group>"; };
+		DFD9CD99268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchGitRepositorySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD9CD9C268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitRepositorySwiftUI.swift; sourceTree = "<group>"; };
 		DFD9CD9E268BB74C001EB1C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFD9CDA0268BB756001EB1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD9CDA3268BB756001EB1C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		DFD9CD90268BB74B001EB1C5 = {
 			isa = PBXGroup;
 			children = (
-				DFD9CD9B268BB74B001EB1C5 /* TryFetchDataOnGit */,
+				DFD9CD9B268BB74B001EB1C5 /* SearchGitRepositorySwiftUI */,
 				DFD9CD9A268BB74B001EB1C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +54,16 @@
 		DFD9CD9A268BB74B001EB1C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFD9CD99268BB74B001EB1C5 /* TryFetchDataOnGit.app */,
+				DFD9CD99268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
+			usesTabs = 0;
 		};
-		DFD9CD9B268BB74B001EB1C5 /* TryFetchDataOnGit */ = {
+		DFD9CD9B268BB74B001EB1C5 /* SearchGitRepositorySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DFD9CD9C268BB74B001EB1C5 /* TryFetchDataOnGitApp.swift */,
+				DFD9CD9C268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.swift */,
 				DFD9CD9E268BB74C001EB1C5 /* ContentView.swift */,
 				DFD9CDB4268DE733001EB1C5 /* DetailView.swift */,
 				DFD9CDAC268BB763001EB1C5 /* Service.swift */,
@@ -73,7 +74,7 @@
 				DFD9CDA5268BB756001EB1C5 /* Info.plist */,
 				DFD9CDA2268BB756001EB1C5 /* Preview Content */,
 			);
-			path = TryFetchDataOnGit;
+			path = SearchGitRepositorySwiftUI;
 			sourceTree = "<group>";
 		};
 		DFD9CDA2268BB756001EB1C5 /* Preview Content */ = {
@@ -87,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFD9CD98268BB74B001EB1C5 /* TryFetchDataOnGit */ = {
+		DFD9CD98268BB74B001EB1C5 /* SearchGitRepositorySwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFD9CDA8268BB756001EB1C5 /* Build configuration list for PBXNativeTarget "TryFetchDataOnGit" */;
+			buildConfigurationList = DFD9CDA8268BB756001EB1C5 /* Build configuration list for PBXNativeTarget "SearchGitRepositorySwiftUI" */;
 			buildPhases = (
 				DFD9CD95268BB74B001EB1C5 /* Sources */,
 				DFD9CD96268BB74B001EB1C5 /* Frameworks */,
@@ -99,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = TryFetchDataOnGit;
+			name = SearchGitRepositorySwiftUI;
 			productName = TryFetchDataOnGit;
-			productReference = DFD9CD99268BB74B001EB1C5 /* TryFetchDataOnGit.app */;
+			productReference = DFD9CD99268BB74B001EB1C5 /* SearchGitRepositorySwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DFD9CD94268BB74B001EB1C5 /* Build configuration list for PBXProject "TryFetchDataOnGit" */;
+			buildConfigurationList = DFD9CD94268BB74B001EB1C5 /* Build configuration list for PBXProject "SearchGitRepositorySwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFD9CD98268BB74B001EB1C5 /* TryFetchDataOnGit */,
+				DFD9CD98268BB74B001EB1C5 /* SearchGitRepositorySwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -153,13 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD9CD9F268BB74C001EB1C5 /* ContentView.swift in Sources */,
-				DFD9CDB5268DE733001EB1C5 /* DetailView.swift in Sources */,
-				DFD9CD9D268BB74B001EB1C5 /* TryFetchDataOnGitApp.swift in Sources */,
-				DF57DB5626B3DFAC00BBE34A /* SearchBarView.swift in Sources */,
-				DFD9CDB8268F2BB5001EB1C5 /* RemoteImage.swift in Sources */,
-				DFD9CDAD268BB763001EB1C5 /* Service.swift in Sources */,
-				DF57DB3526B19E3700BBE34A /* Repository.swift in Sources */,
+				DF57DB6C26B3F30D00BBE34A /* SearchGitRepositorySwiftUI.swift in Sources */,
+				DF57DB6D26B3F30D00BBE34A /* ContentView.swift in Sources */,
+				DF57DB6E26B3F30D00BBE34A /* DetailView.swift in Sources */,
+				DF57DB6F26B3F30D00BBE34A /* Service.swift in Sources */,
+				DF57DB7026B3F30D00BBE34A /* Repository.swift in Sources */,
+				DF57DB7126B3F30D00BBE34A /* SearchBarView.swift in Sources */,
+				DF57DB7226B3F30D00BBE34A /* RemoteImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,16 +289,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TryFetchDataOnGit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SearchGitRepositorySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5ULAX9V4M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TryFetchDataOnGit/Info.plist;
+				INFOPLIST_FILE = SearchGitRepositorySwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryFetchDataOnGit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SearchGitRepositorySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,16 +311,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TryFetchDataOnGit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SearchGitRepositorySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5ULAX9V4M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TryFetchDataOnGit/Info.plist;
+				INFOPLIST_FILE = SearchGitRepositorySwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryFetchDataOnGit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SearchGitRepositorySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFD9CD94268BB74B001EB1C5 /* Build configuration list for PBXProject "TryFetchDataOnGit" */ = {
+		DFD9CD94268BB74B001EB1C5 /* Build configuration list for PBXProject "SearchGitRepositorySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFD9CDA6268BB756001EB1C5 /* Debug */,
@@ -338,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFD9CDA8268BB756001EB1C5 /* Build configuration list for PBXNativeTarget "TryFetchDataOnGit" */ = {
+		DFD9CDA8268BB756001EB1C5 /* Build configuration list for PBXNativeTarget "SearchGitRepositorySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFD9CDA9268BB756001EB1C5 /* Debug */,

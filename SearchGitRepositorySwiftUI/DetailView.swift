@@ -1,9 +1,3 @@
-//
-//  DetailView.swift
-//  TryFetchDataOnGit
-//
-//  Created by Дмитрий Геращенко on 01.07.2021.
-//
 
 import SwiftUI
 
