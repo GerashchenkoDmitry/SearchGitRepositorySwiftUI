@@ -7,14 +7,15 @@
 
 import Foundation
 
-struct Response: Codable {
-  var items: [Item]
+struct ItemResponse: Codable {
+  let items: [Item]
 }
 
-struct Item: Codable {
+struct Item: Codable, Identifiable {
   var id: Int
   var name: String
   var owner: Owner
+  var url: String
   var description: String
   var language: String?
   var stars: Int?
@@ -23,6 +24,7 @@ struct Item: Codable {
   
   enum CodingKeys: String, CodingKey {
     case id, name, owner, description, language
+    case url = "html_url"
     case stars = "stargazers_count"
     case forks = "forks_Count"
     case license
